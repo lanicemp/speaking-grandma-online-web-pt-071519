@@ -14,9 +14,9 @@ require 'pry'
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(sentence)
-  #speak_to_grandma 
-  if  == "I LOVE YOU GRANDMA!"
+  if sentence == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
+    elsif
     binding.pry
   end 
 end
